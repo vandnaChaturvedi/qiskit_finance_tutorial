@@ -14,7 +14,7 @@ Make sure the following are installed on your system:
 
 ---
 
-# Step 1: Create Conda Environment
+# Steps:
 
 Create a new Conda environment named `qfin` with Python 3.12.
 
