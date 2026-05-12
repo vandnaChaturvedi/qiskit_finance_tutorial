@@ -15,8 +15,8 @@ This guide sets up the `qfin`  for running all 12 qiskit-finance tutorials.
 ```bash
 conda create --name qfin python=3.12
 conda activate qfin
-git clone https://github.com/qiskit-community/qiskit-finance.git
-cd qiskit-finance
+git clone https://github.com/vandnaChaturvedi/qfin_tut.git
+cd qfin-tut
 pip install -r requirements-dev.txt 
 pip install qiskit==2.4.1 qiskit-aer==0.17.2 qiskit-algorithms==0.4.0 qiskit-finance==0.4.1 qiskit-optimization==0.7.0  jupyterlab
 jupyter lab
