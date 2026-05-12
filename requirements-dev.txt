@@ -16,3 +16,9 @@ mypy-extensions>=0.4.3
 nbsphinx
 qiskit_sphinx_theme~=1.16.0
 types-certifi
+qiskit==2.4.1
+qiskit-aer==0.17.2
+qiskit-algorithms==0.4.0
+qiskit-finance==0.4.1
+qiskit-optimization==0.7.0
+jupyterlab
