@@ -17,6 +17,7 @@ conda create --name qfin python=3.12
 conda activate qfin
 git clone https://github.com/qiskit-community/qiskit-finance.git
 cd qiskit-finance
+pip install -r requirements-dev.txt 
 pip install qiskit==2.4.1 qiskit-aer==0.17.2 qiskit-algorithms==0.4.0 qiskit-finance==0.4.1 qiskit-optimization==0.7.0  jupyterlab
 jupyter lab
 ```
