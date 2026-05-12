@@ -1,34 +1,37 @@
-# qfin_tut
-# Qiskit Finance Environment Setup
+# Qiskit Finance Tutorial Environment Setup
 
-This guide helps you set up a dedicated Conda environment for working with the Qiskit Finance tutorials and development environment.
+This guide sets up the `qfin` conda environment for running all 12 qiskit-finance tutorials.
 
 ---
 
 ## Prerequisites
 
-Make sure the following are installed on your system:
-
 - Anaconda or Miniconda
-- Python 3.12 support
+- Python 3.12
 
 ---
 
-# Steps:
-
-Create a new Conda environment named `qfin` with Python 3.12.
-
+## Setup Steps
 ```bash
 conda create --name qfin python=3.12
 conda activate qfin
 git clone https://github.com/qiskit-community/qiskit-finance.git
-cd qfin_tut/
-pip install -r requirements-dev.txt
-pip install qiskit-algorithms qiskit-optimization qiskit-finance qiskit-aer
-pip install jupyterlab
+cd qiskit-finance
+pip install qiskit==2.4.1 qiskit-aer==0.17.2 qiskit-algorithms==0.4.0 qiskit-finance==0.4.1 qiskit-optimization==0.7.0  jupyterlab
 jupyter lab
-qfin_tut/
-│
-└── tutorials/
-├── requirements-dev.txt
-└── README.md
+```
+---
+
+## Package Versions (tested and working)
+
+| Package             | Version |
+|---------------------|---------|
+| qiskit              | 2.4.1   |
+| qiskit-aer          | 0.17.2  |
+| qiskit-algorithms   | 0.4.0   |
+| qiskit-finance      | 0.4.1   |
+| qiskit-optimization | 0.7.0   |
+| Python              | 3.12    |
+
+---
+
